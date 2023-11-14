@@ -37,9 +37,9 @@ var taskconent ='';
     </div>
         <div class="btn_container p-2 col-md-2 align-items-center justify-content-center d-flex">
         <div class="my-auto btn_inner d-flex p-3 gap-2">
-        <button class="ion-edit col-6 btn btn-success edit_btn"  data-bs-toggle="modal" data-bs-target="#modaledit-${index}"></button>
+        <button class="col-6 btn btn-success edit_btn"  data-bs-toggle="modal" data-bs-target="#modaledit-${index}"><ion-icon name="pencil-outline"></ion-icon></button>
        
-        <button class="ion-trash-b btn col-6 btn-danger delete_btn" id="delete_btn" data-index="${index}"></button>
+        <button class="btn col-6 btn-danger delete_btn" id="delete_btn" data-index="${index}"><ion-icon name="trash-outline"></ion-icon></button>
     </div>
         </div>
         </div>
